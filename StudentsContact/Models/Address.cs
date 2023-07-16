@@ -13,11 +13,9 @@ namespace StudentsContact.Models
 
         [DisplayName("Address")]
         [Column(TypeName = "nvarchar(100)")]
-        [Required(ErrorMessage = "This Field is Required.")]
         public string? AddresLine { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
-        [Required(ErrorMessage = "This Field is Required.")]
         public string? City { get; set; }
 
         public int ParishId { get; set; }

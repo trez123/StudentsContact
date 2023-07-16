@@ -25,5 +25,9 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Models\ViewModels\" />
+    <Folder Include="wwwroot\images\students\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\students\" />
   </ItemGroup>
 </Project>

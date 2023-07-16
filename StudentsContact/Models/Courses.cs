@@ -12,7 +12,6 @@ namespace StudentsContact.Models
         public int Id { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
-        [Required(ErrorMessage = "This Field is Required.")]
         public string? Name { get; set; }
 
         public string? Description { get; set; }

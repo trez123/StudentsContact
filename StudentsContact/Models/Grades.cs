@@ -13,22 +13,18 @@ namespace StudentsContact.Models
 
         [DisplayName("Physical Education Grade (Practical)")]
         [Column(TypeName = "nvarchar(100)")]
-        [Required(ErrorMessage = "This Field is Required.")]
         public string? PhysicalEducation { get; set; }
 
         [DisplayName("Industrial Technology Grade (Practical)")]
         [Column(TypeName = "nvarchar(100)")]
-        [Required(ErrorMessage = "This Field is Required.")]
         public string? IndustrialTechnology { get; set; }
 
         [DisplayName("Physics Grade (Theory)")]
         [Column(TypeName = "nvarchar(100)")]
-        [Required(ErrorMessage = "This Field is Required.")]
         public string? Physics { get; set; }
 
         [DisplayName("Math Grade (Theory)")]
         [Column(TypeName = "nvarchar(100)")]
-        [Required(ErrorMessage = "This Field is Required.")]
         public string? Math { get; set; }
 
         public int StudentId { get; set; }

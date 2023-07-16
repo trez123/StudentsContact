@@ -32,10 +32,8 @@ namespace StudentsContact.Models
 
         [DisplayName("Phone Number")]
         [Column(TypeName = "nvarchar(100)")]
-        [Required(ErrorMessage = "This Field is Required.")]
         public string? PhoneNumber { get; set; }
 
-        [Required(ErrorMessage = "This Field is Required.")]
         public string? Image { get; set; }
 
         // Relationship
@@ -46,7 +44,7 @@ namespace StudentsContact.Models
         [ForeignKey("CourseId")]
         public virtual Course? Course { get; set; }
 
-        public virtual Address Address { get; set; }
+        public virtual Address? Address { get; set; }
 
         public virtual Grades? Grades { get; set; }
     }

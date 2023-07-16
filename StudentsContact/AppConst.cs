@@ -3,7 +3,7 @@ namespace StudentsContact
 {
 	public static class AppConst
 	{
-		public static string UploadPath = @"\images\students\";
+		public static string UploadPath = @"/images/students/";
 	}
 }
 

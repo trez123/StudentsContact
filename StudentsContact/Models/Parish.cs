@@ -13,7 +13,6 @@ namespace StudentsContact.Models
 
         [DisplayName("State/Parish")]
         [Column(TypeName = "nvarchar(100)")]
-        [Required(ErrorMessage = "This Field is Required.")]
         public string? StateParish { get; set; }
 
         public ICollection<Address>? Address { get; set; }
